@@ -1,0 +1,58 @@
+body {
+    margin-top: 40px;
+}
+header.header.fw-main-row {
+    top: 60px;
+}
+header#hsjha {
+    line-height: 60px;
+    font-weight: 400;
+    box-shadow: 0 1px 3px 0 #6f3b25;
+    height: 60px;
+    background-color: #6f3b25;
+    top: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 10000;
+}
+
+/* #admin-top-baar {
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+    background: red;
+} */
+
+#admin-top-baar .menu {
+    width: -webkit-fill-available;
+    float: left;
+    line-height: 60px;
+    margin-bottom: 0;
+    font-size: 13px;
+    list-style: none;
+}
+
+#admin-top-baar .menu li {
+    display: inline-block;
+}
+
+#admin-top-baar .menu li a {
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 20px;
+}
+
+#admin-top-baar .name {
+    color: #fff;
+    height: 60px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 0;
+    font-size: 24px;
+    font-family: "Coiny", sans-serif;
+    font-variant: small-caps;
+}
